@@ -1,0 +1,175 @@
+03-02-2022 16:23:29 INFO  Server:35 - SERVER STARTED
+03-02-2022 16:23:37 INFO  Server:35 - SERVER STARTED
+03-02-2022 16:28:53 INFO  Server:35 - SERVER STARTED
+03-02-2022 16:32:42 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+03-02-2022 16:33:14 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+03-02-2022 16:36:56 INFO  Server:35 - SERVER STARTED
+03-02-2022 16:38:08 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+03-02-2022 16:39:53 INFO  Server:35 - SERVER STARTED
+03-02-2022 16:40:14 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+03-02-2022 16:40:33 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+03-02-2022 16:41:17 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+03-02-2022 16:41:17 INFO  PlayerOneTask:56 - PLAYER 1(DRIVER) DISCONNECTED
+03-02-2022 16:41:20 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+03-02-2022 16:42:04 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+03-02-2022 16:42:08 INFO  PlayerOneTask:56 - PLAYER 1(DRIVER) DISCONNECTED
+03-02-2022 16:42:08 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 20:14:28 INFO  Server:35 - SERVER STARTED
+08-02-2022 20:14:53 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 20:15:14 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 20:15:37 INFO  PlayerOneTask:56 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 20:15:37 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 20:57:12 INFO  Server:35 - SERVER STARTED
+08-02-2022 21:00:26 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:00:42 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:01:17 INFO  PlayerOneTask:66 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 21:01:17 INFO  PlayerTwoTask:55 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 21:01:41 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:01:51 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:03:14 INFO  PlayerTwoTask:55 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 21:03:14 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 21:03:21 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:03:27 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:04:43 INFO  Server:35 - SERVER STARTED
+08-02-2022 21:04:50 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:04:53 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:05:21 INFO  PlayerTwoTask:55 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 21:05:21 INFO  PlayerOneTask:66 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 21:15:12 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:15:38 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:16:30 INFO  PlayerTwoTask:55 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 21:16:30 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 21:16:54 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 21:17:02 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 21:17:35 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 3
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 21:17:35 INFO  PlayerTwoTask:55 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 22:00:56 ERROR Server:37 - CAN'T CREATE SERVER SOCKET
+08-02-2022 22:04:44 ERROR Server:37 - CAN'T CREATE SERVER SOCKET
+08-02-2022 22:17:59 ERROR Server:37 - CAN'T CREATE SERVER SOCKET
+08-02-2022 22:18:14 INFO  Server:35 - SERVER STARTED
+08-02-2022 22:18:20 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 22:18:31 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 22:30:15 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 22:30:15 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 22:33:04 INFO  Server:35 - SERVER STARTED
+08-02-2022 22:33:21 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 22:34:29 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 22:34:46 INFO  PlayerOneTask:66 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 22:34:51 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 22:45:41 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 22:45:53 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 22:50:04 INFO  Server:35 - SERVER STARTED
+08-02-2022 22:50:26 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 22:50:42 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 22:50:52 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 22:50:54 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 22:51:53 INFO  Server:35 - SERVER STARTED
+08-02-2022 22:52:04 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 22:52:18 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 22:53:20 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 22:53:20 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 23:03:06 INFO  Server:35 - SERVER STARTED
+08-02-2022 23:03:22 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:03:35 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:04:10 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 23:04:10 INFO  PlayerOneTask:66 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 23:07:12 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:07:23 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:07:43 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 23:07:43 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 23:16:00 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:16:10 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:16:42 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 3
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+08-02-2022 23:16:42 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 23:18:54 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:19:06 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:19:20 INFO  Server:35 - SERVER STARTED
+08-02-2022 23:19:26 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:19:29 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:19:50 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 23:19:50 INFO  PlayerOneTask:66 - PLAYER 1(DRIVER) DISCONNECTED
+08-02-2022 23:25:33 INFO  ServerExecutor:136 - PLAYER 1 CONNECTED
+08-02-2022 23:25:43 INFO  ServerExecutor:145 - PLAYER 2 CONNECTED
+08-02-2022 23:25:58 INFO  PlayerTwoTask:51 - PLAYER 2(SPAMMER) DISCONNECTED
+08-02-2022 23:25:58 ERROR ThreadPoolRunnable:26 - CAN'T RUN TASK
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.set(ArrayList.java:441)
+	at tasks.PlayerOneTask.run(PlayerOneTask.java:65)
+	at threadpool.ThreadPoolRunnable.run(ThreadPoolRunnable.java:24)
+	at java.base/java.lang.Thread.run(Thread.java:831)
