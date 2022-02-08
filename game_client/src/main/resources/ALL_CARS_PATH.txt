@@ -1,0 +1,11 @@
+FORD_FOCUS=82,236,251,src/main/resources/images/ford_focus.png,src/main/resources/images/ford_focus_up.png,src/main/resources/images/ford_focus_down.png,170,530,20,205,60,0,910,20,60,90,41
+BLACK_LAND_CRUISER=128,323,338,src/main/resources/images/land_cruiser_black.png,src/main/resources/images/land_cruiser_black_up.png,src/main/resources/images/land_cruiser_black_down.png,135,485,20,168,70,0,840,20,50,78,64
+LAND_CRUISER=130,323,338,src/main/resources/images/land_cruiser.png,src/main/resources/images/land_cruiser_up.png,src/main/resources/images/land_cruiser_down.png,135,485,20,168,70,0,840,20,50,80,65
+TRUCK=204,539,554,src/main/resources/images/truck.png,src/main/resources/images/truck.png,src/main/resources/images/truck.png,90,400,0,103,100,0,600,0,30,50,104
+SUBARU=85,259,274,src/main/resources/images/subaru.png,src/main/resources/images/subaru_up.png,src/main/resources/images/subaru_down.png,170,527,30,208,80,0,900,30,60,88,42
+KIA=82,236,251,src/main/resources/images/kia.png,src/main/resources/images/kia_up.png,src/main/resources/images/kia_down.png,170,522,20,198,55,0,910,20,53,81,41
+VOLKSWAGEN_POLO=86,240,255,src/main/resources/images/volkswagen_polo.png,src/main/resources/images/volkswagen_polo_up.png,src/main/resources/images/volkswagen_polo_down.png,170,530,20,205,60,0,910,20,56,84,43
+BENZ_TRUCK=140,323,338,src/main/resources/images/benz_truck.png,src/main/resources/images/benz_truck_up.png,src/main/resources/images/benz_truck_down.png,130,478,20,168,70,0,800,20,50,78,70
+ROOT_TAXI=158,315,330,src/main/resources/images/root_taxi.png,src/main/resources/images/root_taxi_up.png,src/main/resources/images/root_taxi_down.png,125,460,20,160,65,0,800,20,35,60,79
+BUS=168,556,571,src/main/resources/images/bus.png,src/main/resources/images/bus.png,src/main/resources/images/bus.png,120,448,0,120,55,0,600,0,35,58,84
+$
