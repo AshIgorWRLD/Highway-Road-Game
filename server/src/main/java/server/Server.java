@@ -16,9 +16,9 @@ public class Server extends Thread {
 
     private ServerExecutor myExecutor;
 
-    public Server(String new_ip, int new_port) {
-        this.ip = new_ip;
-        this.port = new_port;
+    public Server(String ip, int port) {
+        this.ip = ip;
+        this.port = port;
     }
 
     public void startServer() {
